@@ -3,43 +3,338 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flow</title>
+    <title>Goliaf</title>
     <link rel="stylesheet" href="mainCSS.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-jR2doR+FJjPUkz6n7ivzgUD5B5kPurC4onU5aw7BqRqdq4Rjts4OM/DiCshyQ5n6q"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="header">
-      <div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary custom-nav">
+      <div class="container">
         <a href="C:\Users\Алимжан\Desktop\hw\ASSIGN1WEB\mainHTML.html">
-          <!-- <img
-            class="logo"
-            src="istockphoto-1448579403-612x612-removebg-preview copy.png"
-            alt="qurt-logo"
-            width="50"
-            height="50"
-          /> -->
-          <h1 class="header">Goliaf</h1>
+          <img
+            src="bull_logo_4x-removebg-preview.png"
+            alt="Logo"
+            width="250"
+            height="180"
+          />
         </a>
-        <!-- <a href="#">
-          <h1>Qurt</h1>
-        </a> -->
+
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav" style="font-size: 25px">
+            <li class="nav-item">
+              <a class="nav-link active box-shadow ms-5" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active ms-5" href="Trainings.html"
+                >Trainings</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active ms-5" href="#about">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active ms-5" href="#">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <a
+                  class="nav-link active dropdown-toggle ms-4"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Page 1</a></li>
+                  <li><a class="dropdown-item" href="#">Page 2</a></li>
+                  <li><a class="dropdown-item" href="#">Page 3</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a href="login.html" class="btn btn-dark ms-auto">Login</a>
+        </div>
       </div>
-      <div>
-        <ul class="header">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Archive</a></li>
-          <li><a href="#">Category</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+    </nav>
+
+    <div class="container-fluid p-0">
+      <div class="row position-relative">
+        <img
+          class="img-fluid w-100"
+          src="pexels-leon-ardho-1552242.jpg"
+          alt=""
+        />
+        <div
+          class="position-absolute bottom-0 start-0 mt-4 ml-4"
+          style="
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            margin-left: 10px;
+          "
+        >
+          <h1 class="display-1 text-white">Effective training programs</h1>
+          <p class="display-5 text-white">
+            Video workouts developed by professional trainers
+          </p>
+          <a
+            href="C:\Users\Алимжан\Desktop\hw\ASSIGN1WEB\Trainings.html"
+            class="btn btn-success btn-lg rounded-pill"
+            style="width: 200px"
+            >Start</a
+          >
+        </div>
       </div>
     </div>
+
+    <div class="container-fluid">
+      <h1 class="text-center my-5">Effective training programs</h1>
+      <div class="row justify-content-center align-items-center my-5">
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+          <img
+            class="rounded-circle"
+            src="healthy-heart-1-1024x1024.jpg"
+            alt=""
+            class="img-fluid"
+            width="400"
+            height="400"
+          />
+          <p class="display-6">Nutrition</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+          <img
+            class="rounded-circle"
+            src="5.png"
+            alt=""
+            class="img-fluid"
+            width="400"
+            height="400"
+          />
+          <p class="display-6">Trainings</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+          <img
+            class="rounded-circle"
+            src="20210715_FemalePersonalTraining_4-1024x1024.jpg"
+            alt=""
+            class="img-fluid"
+            width="400"
+            height="400"
+          />
+          <p class="display-6">Tips</p>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="container-fluid" id="about">
+      <div class="row">
+        <div class="col-lg-6 my-5 border border-5 rounded">
+          <h1 class="display-5 text-black my-4 p-3">About Us</h1>
+          <p class="text-black p-3">
+            Video workouts developed by professional trainers specifically for
+            home training: they do not require preparation and special
+            equipment. All workouts are divided into areas: weight loss,
+            stretching, yoga, twine, relief and many others to suit every taste.
+            It is important for us that everyone finds the most effective way to
+            achieve their goals!
+          </p>
+        </div>
+        <div class="col-lg-6 mt-5">
+          <video
+            class="w-100"
+            src="Henry Cavill Workout «Man of Steel» Behind The Scenes.mp4"
+            autoplay
+            loop
+            muted
+            style="max-height: 280px"
+          ></video>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="young-Arnold-Schwarzenegger-photos-small-removebg-preview (1).png"
+            alt="pg"
+          />
+        </div>
+        <div class="col-lg-6 d-flex align-items-end">
+          <!-- Added d-flex and align-items-end -->
+          <blockquote
+            class="display-6 text-black my-5 rounded p-3 border border-5"
+          >
+            <p>
+              Strength does not come from winning. Your struggles develop your
+              strengths. When you go through hardships and decide not to
+              surrender, that is strength.
+            </p>
+            <footer>—Arnold Schwarzenegger</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-dark" style="height: 20px"></div>
+
+    <div class="container-fluid p-0">
+      <div class="row position-relative">
+        <img
+          class="img-fluid w-100"
+          src="muscular-man-doing-crossfit-training-in-a-dark-shadowy-gym-lifting-weights-holding-a-barbell-at-waist-level-in-a-health-and-fitness-concept_bw0krjyql_thumbnail-1080_01.png"
+          alt=""
+        />
+        <div
+          class="col-lg-11 position-absolute top-50 start-50 translate-middle"
+        >
+          <h1 class="display-5 text-white">Reviews</h1>
+          <p class="display-6 text-white my-5 rounded">
+            The site has helped me change my life, I can't tell you how happy I
+            am!fisoniosfiosbifbsbfibsb
+          </p>
+          <img
+            class="rounded"
+            src="photo_2023-09-25_00-46-52.jpg"
+            alt=""
+            style="max-width: 200px"
+          />
+          <p class="display-6 text-white">Dosymzhan Zhailau, customer</p>
+          <!-- <a href="C:\Users\Алимжан\Desktop\hw\ASSIGN1WEB\Trainings.html" class="btn btn-primary gradient-button">Leave feedback</a> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container-fluid bg-dark" style="height: 20px;">
+
+  </div> -->
+
+    <!-- <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </footer>
+  </div> -->
+
     <div class="container">
-      <img class="main-wall" src="DSC04683-1000x600.jpg" alt="qurt" />
-      <div class="centered">
-        <h1>Be healthy</h1>
-      </div>
-    </div>
-    <div>
-      <h1 class="header">Эффективные программы тренировок</h1>
+      <footer
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
+      >
+        <div class="col mb-3">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+          >
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <p class="text-body-secondary">© 2023</p>
+          <!-- <ul class="justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"></use></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul> -->
+        </div>
+
+        <div class="col mb-3"></div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
