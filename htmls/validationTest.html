@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/formValidationStyles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container" id="formContainer">
+      <img id="bull" src="../images/bull_logo_4x-removebg-preview.png" />
+      <form id="form" action="../htmls/mainHTML.html">
+        <div class="inputBox">
+          <input
+            type="text"
+            name=""
+            id="email"
+            placeholder="Enter E-mail"
+            onkeydown="validation()"
+          />
+          <span id="text"></span>
+        </div>
+
+        <!-- <div class="nickname">
+          <input
+            type="text"
+            name=""
+            id="nickname"
+            placeholder="Enter nickname"
+            onkeydown="validation()"
+          />
+          <span id="nicknameText"></span>
+        </div> -->
+
+        <div class="password">
+          <input
+            type="password"
+            id="password-input"
+            placeholder="Enter password"
+            name="password"
+            onkeydown="validation()"
+          />
+          <span id="passwordText"></span>
+          <label
+            ><input type="checkbox" class="password-checkbox" /> Show
+            password</label
+          >
+        </div>
+
+        <input
+          href="mainHTML.html"
+          type="submit"
+          value="Submit"
+          id="submit"
+          onclick=""
+        />
+      </form>
+    </div>
+
+    <script src="../scripts/form.js"></script>
+  </body>
+</html>

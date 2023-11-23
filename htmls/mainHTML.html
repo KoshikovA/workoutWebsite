@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goliaf</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+  
+
+
+    <link rel="icon" type="image/x-icon" href="../images/bull_logo_4x.jpg">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"/>
+
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-jR2doR+FJjPUkz6n7ivzgUD5B5kPurC4onU5aw7BqRqdq4Rjts4OM/DiCshyQ5n6q"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary custom-nav">
+      <div class="container">
+        <div class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="mainHTML.html"><img src="../images/bull_logo_4x-removebg-preview.png" alt="" width="250" height="180"></a>
+          <ul class="navbar-nav align-items-center px-5" style="font-size: 25px">
+            <li class="nav-item px-3">
+              <a class="nav-link active box-shadow" href="#">Home</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link active" href="Trainings.html">Trainings</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link active" id="" href="#About">About us</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link active" href="#Contacts">Contacts</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link active" href="./Products.html">Shop</a>
+            </li>
+            <li class="nav-item px-5" id = "signin">
+              <a class="nav-link active" href="../htmls/SignIn.html"><i class="fa fa-sign-in"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+      <div class="row position-relative">
+        <img class="img-fluid w-100" src="../images/pexels-leon-ardho-1552242.jpg" alt=""/>
+        <div
+          class="position-absolute bottom-0 start-0 mt-4 ml-4"
+          style="background-color: rgba(0, 0, 0, 0.7); padding: 20px; margin-left: 10px;">
+          <h1 class="display-1 text-white">Effective training programs</h1>
+          <p class="display-5 text-white">
+            Video workouts developed by professional trainers
+          </p>
+          <a onclick="BodyType()" class="btn btn-success btn-lg rounded-pill" style="width: 200px">Start</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <h1 class="text-center my-5">Effective training programs</h1>
+      <div class="row justify-content-center align-items-center my-5">
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+          <img
+            class="rounded-circle"
+            src="../images/healthy-heart-1-1024x1024.jpg"
+            alt=""
+            class="img-fluid"
+            width="400"
+            height="400"/>
+          <p class="display-6 my-5">Nutrition</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+          <img
+            class="rounded-circle"
+            src="../images/5.png"
+            alt=""
+            class="img-fluid"
+            width="400"
+            height="400"
+          />
+          <p class="display-6 my-5">Trainings</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+          <img
+            class="rounded-circle"
+            src="../images/20210715_FemalePersonalTraining_4-1024x1024.jpg"
+            alt=""
+            class="img-fluid"
+            width="400"
+            height="400"
+          />
+          <p class="display-6 my-5">Tips</p>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="container-fluid" id="about">
+      <div class="row">
+        <div class="col-lg-6 my-5 border border-5 rounded">
+          <h1 class="display-5 text-black my-4 p-3" id="About">About Us</h1>
+          <p class="text-black p-3">
+            Video workouts developed by professional trainers specifically for
+            home training: they do not require preparation and special
+            equipment. All workouts are divided into areas: weight loss,
+            stretching, yoga, twine, relief and many others to suit every taste.
+            It is important for us that everyone finds the most effective way to
+            achieve their goals!
+          </p>
+        </div>
+        <div class="col-lg-6 mt-5">
+          <video
+            class="w-100"
+            src="../images/Henry Cavill Workout «Man of Steel» Behind The Scenes.mp4"
+            autoplay
+            loop
+            muted
+            style="max-height: 280px"
+          ></video>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            class = "arni"
+            src="../images/young-Arnold-Schwarzenegger-photos-small-removebg-preview (1).png"
+            alt="pg"
+          />
+        </div>
+        <div class="col-lg-6 d-flex align-items-end">
+          <blockquote
+            class="display-6 text-black my-5 rounded p-3 border border-5">
+            <p class = "citation">
+              Strength does not come from winning. Your struggles develop your
+              strengths. When you go through hardships and decide not to
+              surrender, that is strength.
+            </p>
+            <footer>—Arnold Schwarzenegger</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-dark" style="height: 20px"></div>
+
+
+    <div class="container-fluid p-0">
+      <div class="row position-relative">
+        <div class="slider w-100">
+          <div class="slider-element w-100">
+            <h1 class="display-5 position-absolute text-white ms-5">Reviews</h1>
+            <p class="display-6 position-absolute top-50 start-0 text-white mb-5 p-5">This workout site is a game-changer! The workouts are intense but doable, and I've seen incredible results in just a few weeks. If you're short on time but want to get fit, this is the place to be. <br> Islam, student</p>
+            <img class="img-fluid w-100" src="../images/muscular-man-doing-crossfit-training-in-a-dark-shadowy-gym-lifting-weights-holding-a-barbell-at-waist-level-in-a-health-and-fitness-concept_bw0krjyql_thumbnail-1080_01.png" alt="">
+          </div>
+          <div class="slider-element w-100">
+            <h1 class="display-5 position-absolute text-white ms-5">Reviews</h1>
+            <!-- <div class = "position absolute bg-transparent">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div> -->
+            <p class="display-6 position-absolute top-50 start-0 text-white p-5">I never thought I'd say this, but I look forward to my daily workouts now. The site's design is user-friendly, and the interactive classes make exercise enjoyable. A must-try for anyone looking to stay active. <br> Dosymzhan, doctor</p>
+            <img class="img-fluid w-100" src="../images/muscular-man-doing-crossfit-training-in-a-dark-shadowy-gym-lifting-weights-holding-a-barbell-at-waist-level-in-a-health-and-fitness-concept_bw0krjyql_thumbnail-1080_01.png" alt="">
+          </div>
+
+          <div class="slider-element w-100">
+            <h1 class="display-5 position-absolute text-white ms-5">Reviews</h1>
+            <p class="display-6 position-absolute top-50 start-0 text-white p-5">I appreciate that this site doesn't break the bank. It's affordable, and you can access it from anywhere. No gym membership required! The convenience and value are unbeatable. <br> Ersyn, programmer</p>
+            <img class="img-fluid w-100" src="../images/muscular-man-doing-crossfit-training-in-a-dark-shadowy-gym-lifting-weights-holding-a-barbell-at-waist-level-in-a-health-and-fitness-concept_bw0krjyql_thumbnail-1080_01.png" alt="">          
+          </div>
+
+        </div>
+        <div class="slider-buttons">
+            <button class="btn btn-dark position-absolute top-50 start-0" id="prev">&#8656</button>
+            <button class="btn btn-dark position-absolute top-50 end-0" id="next">&#8658</button>
+        </div>
+      </div>
+    </div>
+
+    
+
+  <div class="container">
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img class="mb-2" src="../images/bull_logo_4x-removebg-preview.png" alt="" width="75" height="75">
+          <small class="d-block mb-3 text-muted">Goliaf Inc., All right reserved © 2023</small>
+        </div>
+        <div class="col-6 col-md">
+          <h4>Information</h4>
+          <p>Features</p>
+          <p>Wishlist</p>
+          <p>Privacy Policy</p>
+          <p>Details</p>
+        </div>
+        <div class="col-6 col-md" id="Contacts">
+          <h4>Contacs us</h4>
+          <p>+8-747-154-15-24</p>
+          <p>goliaf.sports@gmail.com</p>
+        </div>
+        <div class="col-6 col-md">
+          <h4>About</h4>
+          <p>Pricing</p>
+          <p>FAQs</p>
+          <p>Term of Service</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="../scripts/slider.js"></script>
+  <script src="../scripts/window.js"></script>
+  <script src="../script/form.js"></script>
+  <script src="../scripts/scale_image.js"></script>
+  <script src="../scripts/testing.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-jR2doR+FJjPUkz6n7ivzgUD5B5kPurC4onU5aw7BqRqdq4Rjts4OM/DiCshyQ5n6q"
+  crossorigin="anonymous">
+</script>
+  </body>
+</html>
