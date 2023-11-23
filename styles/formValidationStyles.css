@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: white;
+}
+
+h3 {
+  position: relative;
+  font-size: 20px;
+  color: #f9f9f9;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#form {
+  position: relative;
+}
+
+#form #email {
+  width: 300px;
+  background: #292929;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  color: #fff;
+  font-style: 18px;
+}
+
+#form #inputBox {
+  position: relative;
+}
+
+#text {
+  display: block;
+  color: #000;
+  font-weight: 300;
+  font-style: italic;
+  padding: 5px;
+}
+
+#form.invalid .inputBox::before {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/invalid.png);
+  background-size: cover;
+  z-index: 1000;
+}
+
+#form.valid .inputBox::before {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/valid.png);
+  background-size: cover;
+  z-index: 1000;
+}
+
+/* #form #nickname {
+  margin-top: 10%;
+  width: 300px;
+  background: black;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  color: #fff;
+  font-style: 18px;
+  color: white;
+}
+
+#nicknameText {
+  display: block;
+  color: #000;
+  font-weight: 300;
+  font-style: italic;
+  padding: 5px;
+}
+
+#form.invalid .nickname::before {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 215px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/invalid.png);
+  background-size: cover;
+  z-index: 1000;
+}
+
+#form.valid .nickname::before {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 215px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/valid.png);
+  background-size: cover;
+  z-index: 1000;
+} */
+
+#form #password-input {
+  margin-top: 10%;
+  width: 300px;
+  background: #292929;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  color: #fff;
+  font-style: 18px;
+}
+
+#passwordText {
+  display: block;
+  color: #000;
+  font-weight: 300;
+  font-style: italic;
+  padding: 5px;
+}
+
+#form.invalid .password::before {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 115px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/invalid.png);
+  background-size: cover;
+  z-index: 1000;
+}
+
+#form.valid .password::before {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 115px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/valid.png);
+  background-size: cover;
+  z-index: 1000;
+}
+
+#formContainer {
+  position: relative;
+}
+
+#bull {
+  position: relative;
+  bottom: 20%;
+  left: 8%;
+  width: 320px; /* Adjust the width and height as needed */
+  height: 250px;
+  z-index: 1; /* Ensure the photo is in front of other elements */
+}
+
+#submit {
+  margin-top: 5%;
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+}

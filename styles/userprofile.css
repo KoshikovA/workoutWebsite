@@ -1,0 +1,19 @@
+body {
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  justify-content: center;
+}
+
+.user-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 50%;
+  border-radius: 50%;
+}

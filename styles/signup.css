@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  margin: 10px 50px;
+}
+
+.form-group {
+  margin: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 20px;
+}
+
+button {
+  width: 200px;
+  padding: 15px;
+  margin-top: 25px;
+  background: #fff;
+  color: dodgerblue;
+  border: solid 1px dodgerblue;
+  border-radius: 33px;
+  cursor: pointer;
+  transition: all 0.38s ease-in-out;
+}
+
+button :hover {
+  background: dodgerblue;
+  color: #fff;
+}
+
+table tr td {
+  border: solid 1px #eee;
+  padding: 10px;
+}
